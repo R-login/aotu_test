@@ -1,0 +1,24 @@
+# 核心测试框架
+pytest>=7.0.0
+pytest-html>=3.2.0
+pytest-allure-adaptor>=2.10.0
+
+# Web自动化
+selenium>=4.0.0
+
+# 数据处理
+pyyaml>=6.0
+openpyxl>=3.0.0
+
+# 日志
+loguru>=0.6.0
+
+# 数据库
+pymysql>=1.0.0
+
+# HTTP请求（接口自动化）
+requests>=2.27.0
+
+# 其他工具
+python-dotenv>=0.20.0
+allure-pytest>=2.13.0
