@@ -1,0 +1,106 @@
+2026-05-15 12:35:55 | ERROR | 用例执行错误:click -> Traceback (most recent call last):
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\exception_catch_util.py", line 13, in wrapper
+    return func(*args, **kwargs)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\page\base_page.py", line 14, in click
+    Wait.wait_clickable(self.driver, locator)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\wait_util.py", line 23, in wait_clickable
+    WebDriverWait(driver, timeout=10).until(
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79a61a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff79a61a950+14eb0]
+	chromedriver!(No symbol) [0x7ff79a38d6ed]
+	chromedriver!(No symbol) [0x7ff79a3e6cfe]
+	chromedriver!(No symbol) [0x7ff79a3e700c]
+	chromedriver!(No symbol) [0x7ff79a437cb7]
+	chromedriver!(No symbol) [0x7ff79a43483b]
+	chromedriver!(No symbol) [0x7ff79a3d90e8]
+	chromedriver!(No symbol) [0x7ff79a3d9fc3]
+	chromedriver!GetHandleVerifier [0x7ff79a930149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff79a92a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff79a94c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff79a637cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff79a64087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff79a6240e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff79a624296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff79a608737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff83f1a7374+14]
+	ntdll!RtlUserThreadStart [0x7ff83f8bcc91+21]
+
+
+2026-05-15 12:36:13 | ERROR | 用例执行错误:click -> Traceback (most recent call last):
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\exception_catch_util.py", line 13, in wrapper
+    return func(*args, **kwargs)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\page\base_page.py", line 14, in click
+    Wait.wait_clickable(self.driver, locator)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\wait_util.py", line 23, in wait_clickable
+    WebDriverWait(driver, timeout=10).until(
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79a61a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff79a61a950+14eb0]
+	chromedriver!(No symbol) [0x7ff79a38d6ed]
+	chromedriver!(No symbol) [0x7ff79a3e6cfe]
+	chromedriver!(No symbol) [0x7ff79a3e700c]
+	chromedriver!(No symbol) [0x7ff79a437cb7]
+	chromedriver!(No symbol) [0x7ff79a43483b]
+	chromedriver!(No symbol) [0x7ff79a3d90e8]
+	chromedriver!(No symbol) [0x7ff79a3d9fc3]
+	chromedriver!GetHandleVerifier [0x7ff79a930149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff79a92a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff79a94c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff79a637cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff79a64087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff79a6240e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff79a624296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff79a608737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff83f1a7374+14]
+	ntdll!RtlUserThreadStart [0x7ff83f8bcc91+21]
+
+
+2026-05-15 12:36:22 | ERROR | 用例执行错误:click -> Traceback (most recent call last):
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\exception_catch_util.py", line 13, in wrapper
+    return func(*args, **kwargs)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\page\base_page.py", line 14, in click
+    Wait.wait_clickable(self.driver, locator)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\wait_util.py", line 23, in wait_clickable
+    WebDriverWait(driver, timeout=10).until(
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 514, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 823, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 450, in execute
+    self.error_handler.check_response(response)
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=147.0.7727.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79a61a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff79a61a950+14eb0]
+	chromedriver!(No symbol) [0x7ff79a38d6ed]
+	chromedriver!(No symbol) [0x7ff79a378762]
+	chromedriver!(No symbol) [0x7ff79a39f00c]
+	chromedriver!(No symbol) [0x7ff79a417170]
+	chromedriver!(No symbol) [0x7ff79a434122]
+	chromedriver!(No symbol) [0x7ff79a3d90e8]
+	chromedriver!(No symbol) [0x7ff79a3d9fc3]
+	chromedriver!GetHandleVerifier [0x7ff79a930149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff79a92a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff79a94c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff79a637cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff79a64087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff79a6240e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff79a624296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff79a608737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff83f1a7374+14]
+	ntdll!RtlUserThreadStart [0x7ff83f8bcc91+21]
+
+

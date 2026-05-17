@@ -1,0 +1,33 @@
+[
+  {
+    "customerphone": 15123509776,
+    "creditkids": 20,
+    "creditcloth": 300,
+    "credittotal": 600,
+    "userid": 3,
+    "code": 201,
+    "customername": "程涛",
+    "childsex": "女"
+  },
+
+  {
+    "customerphone": 15696624080,
+    "creditkids": 34,
+    "creditcloth": 400,
+    "credittotal": 344,
+    "userid": 5,
+    "code": 201,
+    "customername": "刘泽坤",
+    "childsex": "男"
+  },
+  {
+    "customerphone": 15084425589,
+    "creditkids": 34,
+    "creditcloth": 400,
+    "credittotal": 344,
+    "userid": 5,
+    "code": 201,
+    "customername": "任雨桥",
+    "childsex": "男"
+  }
+]

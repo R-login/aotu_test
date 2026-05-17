@@ -1,0 +1,133 @@
+2026-05-15 16:03:31 | INFO | 【POST请求】 -> https://jsonplaceholder.typicode.com/users
+2026-05-15 16:03:34 | INFO | Redis存入成功: token = Header.Payload.Signature
+2026-05-15 16:03:34 | INFO | 【POST请求】 -> https://jsonplaceholder.typicode.com/posts
+2026-05-15 16:03:36 | INFO | 【POST请求】 -> https://jsonplaceholder.typicode.com/posts
+2026-05-15 16:03:37 | INFO | 【POST请求】 -> https://jsonplaceholder.typicode.com/posts
+2026-05-15 16:03:52 | ERROR | 用例执行错误:click -> Traceback (most recent call last):
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\exception_catch_util.py", line 14, in wrapper
+    return func(*args, **kwargs)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\page\base_page.py", line 15, in click
+    Wait.wait_clickable(self.driver, locator)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\wait_util.py", line 25, in wait_clickable
+    WebDriverWait(driver, timeout=10).until(
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff61120a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff61120a950+14eb0]
+	chromedriver!(No symbol) [0x7ff610f7d6ed]
+	chromedriver!(No symbol) [0x7ff610fd6cfe]
+	chromedriver!(No symbol) [0x7ff610fd700c]
+	chromedriver!(No symbol) [0x7ff611027cb7]
+	chromedriver!(No symbol) [0x7ff61102483b]
+	chromedriver!(No symbol) [0x7ff610fc90e8]
+	chromedriver!(No symbol) [0x7ff610fc9fc3]
+	chromedriver!GetHandleVerifier [0x7ff611520149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff61151a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff61153c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff611227cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff61123087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6112140e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff611214296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6111f8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff83f1a7374+14]
+	ntdll!RtlUserThreadStart [0x7ff83f8bcc91+21]
+
+
+2026-05-15 16:04:11 | ERROR | 用例执行错误:click -> Traceback (most recent call last):
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\exception_catch_util.py", line 14, in wrapper
+    return func(*args, **kwargs)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\page\base_page.py", line 15, in click
+    Wait.wait_clickable(self.driver, locator)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\wait_util.py", line 25, in wait_clickable
+    WebDriverWait(driver, timeout=10).until(
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff61120a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff61120a950+14eb0]
+	chromedriver!(No symbol) [0x7ff610f7d6ed]
+	chromedriver!(No symbol) [0x7ff610fd6cfe]
+	chromedriver!(No symbol) [0x7ff610fd700c]
+	chromedriver!(No symbol) [0x7ff611027cb7]
+	chromedriver!(No symbol) [0x7ff61102483b]
+	chromedriver!(No symbol) [0x7ff610fc90e8]
+	chromedriver!(No symbol) [0x7ff610fc9fc3]
+	chromedriver!GetHandleVerifier [0x7ff611520149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff61151a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff61153c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff611227cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff61123087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6112140e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff611214296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6111f8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff83f1a7374+14]
+	ntdll!RtlUserThreadStart [0x7ff83f8bcc91+21]
+
+
+2026-05-15 16:04:27 | ERROR | 用例执行错误:click -> Traceback (most recent call last):
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\exception_catch_util.py", line 14, in wrapper
+    return func(*args, **kwargs)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\page\base_page.py", line 15, in click
+    Wait.wait_clickable(self.driver, locator)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\wait_util.py", line 25, in wait_clickable
+    WebDriverWait(driver, timeout=10).until(
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff61120a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff61120a950+14eb0]
+	chromedriver!(No symbol) [0x7ff610f7d6ed]
+	chromedriver!(No symbol) [0x7ff610fd6cfe]
+	chromedriver!(No symbol) [0x7ff610fd700c]
+	chromedriver!(No symbol) [0x7ff611027cb7]
+	chromedriver!(No symbol) [0x7ff61102483b]
+	chromedriver!(No symbol) [0x7ff610fc90e8]
+	chromedriver!(No symbol) [0x7ff610fc9fc3]
+	chromedriver!GetHandleVerifier [0x7ff611520149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff61151a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff61153c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff611227cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff61123087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6112140e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff611214296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6111f8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff83f1a7374+14]
+	ntdll!RtlUserThreadStart [0x7ff83f8bcc91+21]
+
+
+2026-05-15 16:04:48 | ERROR | 用例执行错误:click -> Traceback (most recent call last):
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\exception_catch_util.py", line 14, in wrapper
+    return func(*args, **kwargs)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\page\base_page.py", line 15, in click
+    Wait.wait_clickable(self.driver, locator)
+  File "C:\tools\pyth_data\pythonProject\domo\aotu_test\utils\wait_util.py", line 25, in wait_clickable
+    WebDriverWait(driver, timeout=10).until(
+  File "C:\tools\python\lib\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff61120a8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff61120a950+14eb0]
+	chromedriver!(No symbol) [0x7ff610f7d6ed]
+	chromedriver!(No symbol) [0x7ff610fd6cfe]
+	chromedriver!(No symbol) [0x7ff610fd700c]
+	chromedriver!(No symbol) [0x7ff611027cb7]
+	chromedriver!(No symbol) [0x7ff61102483b]
+	chromedriver!(No symbol) [0x7ff610fc90e8]
+	chromedriver!(No symbol) [0x7ff610fc9fc3]
+	chromedriver!GetHandleVerifier [0x7ff611520149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff61151a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff61153c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff611227cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff61123087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6112140e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff611214296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6111f8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ff83f1a7374+14]
+	ntdll!RtlUserThreadStart [0x7ff83f8bcc91+21]
+
+

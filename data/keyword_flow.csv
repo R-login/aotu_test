@@ -1,0 +1,6 @@
+step,keyword,loc_type,loc_value,args
+1,打开网页,,,https://www.saucedemo.com/
+2,输入文本,id,user-name,
+3,输入文本,id,password,
+4,点击元素,id,login-button,
+5,断言URL包含,,,inventory.html
